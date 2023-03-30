@@ -4,7 +4,7 @@
 
 kafka-console-consumer --bootstrap-server host:port --topic name_of_topic
 
-kafka-console-consumer --bootstrap-server localhost:9092 --topic intuit_first_topic
+kafka-console-consumer --bootstrap-server localhost:9092 --topic bot_first_topic
 
 #------------------------------------------------
 #---------- To Cosnume Data from a Topic from beginning
@@ -12,4 +12,4 @@ kafka-console-consumer --bootstrap-server localhost:9092 --topic intuit_first_to
 
 kafka-console-consumer --bootstrap-server host:port --topic name_of_topic --from-beginning
 
-kafka-console-consumer --bootstrap-server localhost:9092 --topic intuit_first_topic --from-beginning
+kafka-console-consumer --bootstrap-server localhost:9092 --topic bot_first_topic --from-beginning
